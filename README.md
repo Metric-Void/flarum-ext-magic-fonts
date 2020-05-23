@@ -1,5 +1,5 @@
 ## Magical Fonts
-Add magical fonts from Princess Connect Re:Dive and Madoka Magica to your forum.
+Add magical fonts from Princess Connect Re:Dive, Madoka Magica and Minecraft to your forum.
 
 ## Installation
 First use composer to install the plugin.
