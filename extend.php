@@ -26,5 +26,9 @@ return [
             '[MADOKA]{TEXT}[/MADOKA]',
             '<div class="FontMadoka">{TEXT}</div>'
         );
+        $config->BBCodes->addCustom(
+            '[MCENCHANT]{TEXT}[/MCENCHANT]',
+            '<div class="FontMcEnchant">{TEXT}<div>'
+        );
     })
 ];
