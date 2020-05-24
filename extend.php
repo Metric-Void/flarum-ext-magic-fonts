@@ -7,14 +7,19 @@
  * LICENSE file that was distributed with this source code.
  */
 
+namespace MetricVoid\MagicFonts;
+
 use Flarum\Extend;
 use Flarum\Frontend\Document;
 use s9e\TextFormatter\Configurator;
+use Flarum\Foundation\Application;
+use Illuminate\Database\Schema\Builder;
 
 return [
-    // Register extenders here to customize your forum!
     (new Extend\Frontend('forum'))
         ->css(__DIR__.'/less/fonts.less'),
+
+    (new AssetManager),
 
     (new Extend\Formatter)
     ->configure(function (Configurator $config) {
